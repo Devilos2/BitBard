@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(orange, white, green);
+
+}
+
+.nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    background-color: aquamarine;
+    background-color: #FF9933;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+
+}
+
+.nav_left {
+    display: flex;
+    width: 10%;
+    /* background-color: ; */
+    padding: 2px;
+
+}
+
+.slogo {
+    width: 100%;
+    height: 100%;
+    background-image: url(slogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.nav_right {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav_right ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+.nav_right li {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.nav_right a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(orange, white, green);
+    border: 1px solid black;
+    padding: 0 5px;
+}
+
+#ashokc {
+    width: 10%;
+}
+
+.cards {
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.cards .card:nth-child(even) {
+    flex-direction: row-reverse;
+
+}
+
+.card {
+
+    padding: 5px;
+    margin: 5px 0;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+    background: linear-gradient(to top right, rgb(228, 17, 17), rgb(43, 208, 230));
+    color: #000080;
+
+}
+
+.pic_div {
+    width: 30%;
+    padding: 5px;
+    /* background-color: aquamarine; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.pic_div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* .pic1 {
+    background: url(indian-currency.jpg);
+    background-size: cover;
+
+
+} */
+
+.info {
+    padding: 8px;
+    text-indent: 15px;
+    text-align: justify;
+    width: 100%;
+
+}
+
+.info_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info_span {
+    background: linear-gradient(to top left, orange, white, green);
+    text-transform: capitalize;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    color: transparent;
+}
+
+.info_span p {
+    font-size: larger;
+}
+
+
+h2 {
+    background: linear-gradient(to top left, orange, white, green);
+    text-transform: capitalize;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    color: transparent;
+    text-align: center;
+}
+
+.footer_div {
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    border: 1px solid red;
+}
+
+.footer_div ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* height: 10px; */
+    /* width: 30%; */
+
+}
+.f2{
+    width: 60%;
+}
+.f2 p{
+    display: flex;
+    font-size: small;
+    
+}
+
+.footer_div li {
+
+    margin: 5px;
+}
+
+.footer_div img {
+    width: 5vh;
+}
